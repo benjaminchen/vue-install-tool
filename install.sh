@@ -49,6 +49,8 @@ updateJson="./node_modules/.bin/json -I -f package.json -e 'this.name=\"$project
 
 eval $updateJson
 
+npm remove --save-dev json
+
 rm -rf ./.git
 
 echo "
