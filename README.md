@@ -20,14 +20,14 @@ You can install via curl or wget. Just fillout the infomation about your project
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/benjaminchen/vue-install-tool/master/install.sh)"
 
-Project name? your-project-name
+Project name? (vue) your-project-name
 your-project-name
 
-Project description? your projcet description
+Project description? (A Vue.js project) your projcet description
 your projcet description
 
-Author? author-name<author.mail@mail.com>
-author-name<author.mail@mail.com>
+Author? (someone <someone@mail.com>) author-name <author.mail@mail.com>
+author-name <author.mail@mail.com>
 ```
 
 #### via wget
@@ -35,12 +35,12 @@ author-name<author.mail@mail.com>
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/benjaminchen/vue-install-tool/master/install.sh -O -)"
 
-Project name? your-project-name
+Project name? (vue) your-project-name
 your-project-name
 
-Project description? your projcet description
+Project description? (A Vue.js project) your projcet description
 your projcet description
 
-Author? author-name<author.mail@mail.com>
-author-name<author.mail@mail.com>
+Author? (someone <someone@mail.com>) author-name <author.mail@mail.com>
+author-name <author.mail@mail.com>
 ```
