@@ -9,8 +9,9 @@ NORMAL="$(tput sgr0)"
 
 commands1="git"
 commands2="npm"
+commands3="node"
 
-for i in 1 2
+for i in 1 2 3
 do
     c="commands$i"
     eval origin=\$$c
